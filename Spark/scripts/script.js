@@ -13,7 +13,7 @@ const time_driver = Animation.timeDriver({
 
 // Create a rotation sampler using Rotation objects generated
 // by the previously-defined axisRotation() method.
-const rotation_sampler = Animation.samplers.linear(0, 1 * Math.PI);
+const rotation_sampler = Animation.samplers.linear(0, 1 * 6.4);
 
 SceneModule.root.find("Seed").transform.rotationY = Animation.animate(time_driver, rotation_sampler);
 
