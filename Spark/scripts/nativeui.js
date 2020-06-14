@@ -8,7 +8,7 @@ Promise.all ([
     Textures.findFirst('pesticide'),
     Textures.findFirst('sun'),
 
-    Scene.root.findFirst('GasStation'),
+    Scene.root.findFirst('watering can'),
     Scene.root.findFirst('1220 Island'),
     Scene.root.findFirst('Icosahedron'),
 
@@ -32,6 +32,10 @@ Promise.all ([
             {image_texture: button2},
         ]
     };
+
+    obj0.hidden = true;
+    obj1.hidden = true;
+    obj2.hidden = true;
 
     const picker = NativeUI.picker;
     picker.configure(configuration);
