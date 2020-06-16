@@ -10,7 +10,7 @@ Promise.all ([
 
     Scene.root.findFirst('watering can'),
     Scene.root.findFirst('1220 Island'),
-    Scene.root.findFirst('Icosahedron'),
+    Scene.root.findFirst('sunlight'),
 
 ]).then(function(results){
 
