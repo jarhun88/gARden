@@ -24,7 +24,7 @@ Promise.all ([
 
     const configuration = {
 
-        selectedIndex: 0,
+        selectedIndex: 3,
 
         items: [
             {image_texture: button0},
