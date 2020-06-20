@@ -9,7 +9,7 @@ Promise.all ([
     Textures.findFirst('sun'),
 
     Scene.root.findFirst('watering can'),
-    Scene.root.findFirst('1220 Island'),
+    Scene.root.findFirst('spray bottle'),
     Scene.root.findFirst('sunlight'),
 
 ]).then(function(results){
