@@ -31,6 +31,7 @@ Promise.all ([
         selectedIndex: 0,
         items: [
             {image_texture: button0},
+            {image_texture: button1},
         ]
     };
 
@@ -44,6 +45,9 @@ Promise.all ([
 
     picker.selectedIndex.monitor().subscribe(function(val) {
         switch(val.newValue) {
+	    case 0: {
+            	break;
+	    }
             case 1: {
                 obj0.hidden = false;
                 obj1.hidden = true;
@@ -68,10 +72,11 @@ Promise.all ([
     // Making pesticide appear on plant growth
     plantGrowth.subscribe(function (e) {
         const configuration = {
-        selectedIndex: 0,
+        selectedIndex: 1,
             items: [
                 {image_texture: button0},
                 {image_texture: button1},
+		{image_texture: button2},
             ]
         };        
         picker.configure(configuration);
